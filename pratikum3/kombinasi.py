@@ -23,6 +23,7 @@ def kombinasi_dengan_huruf():
     r = int(input("Masukkan jumlah objek yang dipilih (r): "))
 
     hasil = kombinasi(n, r)
+    print(f"\nJumlah kombinasi C({n}, {r}) = {hasil}")
 
     huruf = [chr(65 + i) for i in range(n)]  # A, B, C, ...
     print(f"Objek: {huruf}")
